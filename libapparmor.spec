@@ -11,6 +11,7 @@ License:	LGPL
 Group:		System/Libraries
 URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
 Source0:	libapparmor-%{version}-%{svnrev}.tar.gz
+Buildrequires:  libtool
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
