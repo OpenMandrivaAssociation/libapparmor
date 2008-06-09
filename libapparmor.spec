@@ -68,9 +68,13 @@ rm -rf %{buildroot}
 # XXX - for some reason, on i586 builds this file is not copied
 install -m 0644 swig/perl/LibAppArmor.pm %{buildroot}%{perl_vendorarch}
 
+%if %mdkversion < 200900
 %post -n %{libname} -p /sbin/ldconfig
+%endif
 
+%if %mdkversion < 200900
 %postun -n %{libname} -p /sbin/ldconfig
+%endif
 
 
 %clean
