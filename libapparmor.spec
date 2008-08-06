@@ -1,11 +1,11 @@
 %define major 1
 %define libname %mklibname apparmor %{major}
 %define develname %mklibname apparmor -d
-%define svnrev 1001
+%define svnrev 1249
 
 Summary:	Main libraries for AppArmor
 Name:		libapparmor
-Version:	2.2
+Version:	2.3
 Release:	%mkrel 1.%{svnrev}.1
 License:	LGPL
 Group:		System/Libraries
