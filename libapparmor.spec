@@ -1,7 +1,7 @@
 %define major 1
 %define libname %mklibname apparmor %{major}
 %define develname %mklibname apparmor -d
-%define svnrev 1249
+%define svnrev 1310
 
 Summary:	Main libraries for AppArmor
 Name:		libapparmor
