@@ -6,7 +6,7 @@
 Summary:	Main libraries for AppArmor
 Name:		libapparmor
 Version:	2.3
-Release:	%mkrel 1.%{svnrev}.1
+Release:	%mkrel 1.%{svnrev}.2
 License:	LGPL
 Group:		System/Libraries
 URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
