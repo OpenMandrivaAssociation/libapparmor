@@ -14,6 +14,7 @@ Url:		http://forge.novell.com/modules/xfmod/project/?apparmor
 Source0:	libapparmor-%{version}-%{svnrev}.tar.gz
 Buildrequires:	bison
 Buildrequires:	flex
+Buildrequires:	libtool
 Buildrequires:	swig
 Buildrequires:	perl-devel
 
